@@ -110,7 +110,7 @@ a:hover{
 /* second section below */
 
  .second{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 350px;
 
     display: flex;
@@ -127,12 +127,13 @@ a:hover{
     width: 200px;
 
     border-radius: 20px;
-    
+    /* dfsdfsdf */
+    transition: all 0.2s ease-in-out;
 }
 
 
 .photos img:hover{
-    border: 3px solid blue;
+    border: 3px solid #3882F6;
 }
 
 
@@ -160,4 +161,43 @@ a:hover{
 .photos{
     flex:1;
     text-align: center;
+}
+
+/* third section below*/
+
+.third{
+    border: 2px solid red;
+    height: 350px;
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+  
+}
+
+.quote{
+    border: 2px solid green;
+    height: 100px;
+
+
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.third .author{
+    border: 2px solid blue;
+
+    margin-top: 10px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    
+    font-style:bold;
+    font-family: verdana;
 }
