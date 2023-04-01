@@ -17,9 +17,7 @@ ul{
     margin-right: 120px;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 .header{
    background-color: #1F2937;
@@ -39,10 +37,70 @@ a{
     color: #F9FAF8;
     font-weight: 700;
     margin-left: 120px;
+    text-shadow: 2px 2px 2px grey;
 }
 
 a{
+    text-decoration: none;
     font-family: sans-serif;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+a:hover{
+    color: grey;
+}
+
+
+.right-side img{
+    width: 400px;
+  height: auto;
+}
+
+.first{
+    background-color: #1F2937;
+
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 300px; */
+
+
+}
+
+.first .left-side{
+    margin-left:125px;
+}
+
+.first .left-side h1{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Tahoma, sans-serif;
+    color: #F9FAF8;
+}
+
+.first .left-side p{
+    font-size: 18px;
+    
+    font-family: Tahoma, sans-serif;
+    color: #E5E7EB;
+
+    width: 600px;
+    margin-top: 10px;
+}
+
+.first .right-side{
+    margin-right: 125px;
+}
+
+#signup {
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+    color: white;
+    background-color: #3882F6;
+    font-weight: 600;
+    border-color: #3882F6;
 }
