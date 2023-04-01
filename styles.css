@@ -1,0 +1,48 @@
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh; 
+}
+
+ul{
+  
+
+    list-style-type: none; 
+    display: flex;
+    gap: 40px;
+    margin-right: 120px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+   background-color: #1F2937;
+
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   height: 40px;
+   padding:10px;
+   
+
+}
+
+.logo{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin-left: 120px;
+}
+
+a{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
