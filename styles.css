@@ -163,10 +163,16 @@ a:hover{
     text-align: center;
 }
 
+.text{
+    font-weight: 500;
+    font-family: Tahoma, sans-serif;
+    
+}
+
 /* third section below*/
 
 .third{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 350px;
     background-color: #E5E7EB;
 
@@ -179,7 +185,7 @@ a:hover{
 }
 
 .quote{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100px;
 
 
@@ -190,7 +196,7 @@ a:hover{
 }
 
 .third .author{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
     margin-top: 10px;
     height: 70px;
@@ -201,3 +207,66 @@ a:hover{
     font-style:bold;
     font-family: verdana;
 }
+
+/* fourth section below*/
+
+
+.fourth{
+    border: 2px solid red;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+}
+
+
+.modal{
+    border: 2px solid #3882F6;
+    
+    background-color: #3882F6;
+
+    border-radius: 8px;
+    width: 900px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+   
+}
+
+#signup-two{
+    border: 2px solid white;
+
+    padding: 5px 20px;
+    border-radius: 10px;
+       
+    
+    color: white;
+    background-color: #3882F6;
+    font-weight: 600;
+        
+}
+
+.heading{
+    font-size: 18px;
+    font-style: bold;
+    font-family: Tahoma, sans-serif;
+    color: white;
+    line-height: 25px;
+}
+
+.text-two{
+    font-size: 15px;
+    font-style: bold;
+    font-family: Tahoma, sans-serif;
+    color: #E5E7EB;
+    line-height: 25px;
+}
+
