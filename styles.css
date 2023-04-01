@@ -105,8 +105,13 @@ a:hover{
     background-color: #3882F6;
     font-weight: 600;
     border-color: #3882F6;
+
+    transition: all 0.2s ease-in-out;
 }
 
+#signup:hover{
+    border: 2px solid white;
+}
 
 
 /* second section below */
@@ -253,7 +258,13 @@ a:hover{
     color: white;
     background-color: #3882F6;
     font-weight: 600;
-        
+    
+    transition: all 0.2s ease-in-out;
+}
+
+#signup-two:hover{
+
+    border: 2px solid blue;
 }
 
 .heading{
