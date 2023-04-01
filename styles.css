@@ -107,6 +107,8 @@ a:hover{
     border-color: #3882F6;
 }
 
+
+
 /* second section below */
 
  .second{
@@ -212,7 +214,7 @@ a:hover{
 
 
 .fourth{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 350px;
 
     display: flex;
@@ -270,3 +272,22 @@ a:hover{
     line-height: 25px;
 }
 
+/* footer section below */
+
+.end{
+    /* border: 2px solid red; */
+    background-color: #1F2937;
+
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.copyright{
+    font-size: 13px;
+    font-family: Tahoma, sans-serif;
+    color: #E5E7EB;
+}
